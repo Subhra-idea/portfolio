@@ -1,0 +1,39 @@
+.navContainer{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15rem;
+    align-items: center
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.list>li{
+    transition: 0.1s;
+}
+a:link{
+    color:  rgb(255, 194, 0);
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    cursor: pointer;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.list>li:hover{
+    color: rgb(255, 194, 0);;
+}
+body{
+    background-color: black;
+}

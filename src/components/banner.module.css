@@ -1,0 +1,39 @@
+.banner{
+    margin-top: 7rem ;
+    justify-content: space-around;
+    padding: 2rem 4rem; 
+    display: flex;
+    flex-direction: row;
+    /* gap: 6rem; */
+    /* border: 1px solid white; */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+.leftinner{
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    align-items: center;
+}
+.buttondiv{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.buttondiv>button{
+    width: 14rem;
+    height: 3rem;
+    border-radius: 35px;
+    font-size: 0.9rem;
+
+}
+a>button{
+    width: 14rem;
+    height: 3rem;
+    border-radius: 35px;
+    font-size: 0.9rem;
+
+}

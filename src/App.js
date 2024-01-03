@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Banner from './components/Banner';
+import Contact from './components/Contact';
+import ExperiEdu from './components/ExperiEdu';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Techstack from './components/Techstack';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app' >
+      <Navbar/>
+      <Banner/>
+      <Projects/>
+      <Techstack/>
+      <ExperiEdu/>
+      <Contact/>
+      
     </div>
   );
 }
-
 export default App;

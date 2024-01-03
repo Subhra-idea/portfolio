@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.container>h1{
+    font-size: 2.7rem;
+}
+.finput{
+    display: flex;
+    gap: 1.5rem;
+}
+.finput>input{
+    width: 17rem !important;
+    height: 3rem !important;
+}
+input{
+    padding: .5rem;
+    font-size: 1.2rem;
+    color: grey;
+    background-color: transparent;
+    border: 0.9px solid grey;
+}
+textarea{
+    padding: .5rem;
+    font-size: 1.2rem;
+    color: grey;
+    background-color: transparent;
+    border: 0.9px solid grey;
+}
+button{
+    background-color:  rgb(255, 194, 0);
+    width: 10rem;
+    color: black;
+    height: 3rem;
+    font-size: 1.2rem;
+    border: 0;
+    transition: linear 0.2s;
+
+}
+button:hover{
+    border: 1px solid  rgb(255, 194, 0);;;
+    background-color: transparent;
+    color: white;
+}
+.container>input{
+    width: 36.5rem;
+    height: 8rem;
+}
